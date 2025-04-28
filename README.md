@@ -152,11 +152,14 @@ Hosting / Cloud       ->     AWS EC2, AWS S3 (for file storage), AWS RDS or Goog
 
 Maps and Geo-location ->     Google Maps API / OpenStreetMap Nominatim API
 
-Notifications         ->     Firebase Cloud Messaging (for mobile push), Twilio (for SMS), SendGrid (for emails)
+Notifications         ->     Firebase Cloud Messaging (for mobile push),
+                             Twilio (for SMS), SendGrid (for emails)
 
-Authentication        ->     Firebase Authentication / OAuth 2.0 for social login (Google, Facebook)
+Authentication        ->     Firebase Authentication / OAuth 2.0 for
+                             social login (Google, Facebook)
 
-Admin Dashboard       ->     React.js Admin Panel (with libraries like AdminBro, React-Admin)
+Admin Dashboard       ->     React.js Admin Panel (with libraries like
+                             AdminBro, React-Admin)
 
 ```
 ## Dependencies:
