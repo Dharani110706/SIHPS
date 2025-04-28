@@ -103,52 +103,54 @@ The solution would include:
 
 1.Locate Nearest E-Waste Facility
 
-    * User enables location or enters an address to view a map/list of nearby certified centers.
+  User enables location or enters an address to view a map/list of nearby certified centers.
 
 2.Facility Details
 
-    * Tapping on a facility shows detailed information like address, working hours, contact, accepted types of e-waste, services like free pickup, etc.
+   Tapping on a facility shows detailed information like address, working hours, contact, accepted types of e-waste, services like free pickup, etc.
 
 3.Filter Search
 
-    * Users can apply filters based on the type of e-waste they wish to dispose of (e.g., batteries, mobile phones, computers, household appliances).
+   Users can apply filters based on the type of e-waste they wish to dispose of (e.g., batteries, mobile phones, computers, household appliances).
 
 4.Navigation Assistance
 
-    * Integration with maps allows users to directly navigate from their current location to the selected facility.
+   Integration with maps allows users to directly navigate from their current location to the selected facility.
 
 5.Submit New Facility
 
-    * Users can recommend a facility they know but which is not listed. This goes through an admin verification process.
+   Users can recommend a facility they know but which is not listed. This goes through an admin verification process.
 
 6.Report Problems
 
-    * Users can report issues like closed centers, wrong addresses, or bad service which admins will review.
+   Users can report issues like closed centers, wrong addresses, or bad service which admins will review.
 
 7.Admin Portal
 
-    * Admins can add, remove, and edit facility information, verify user-submitted entries, and manage reported facilities.
+   Admins can add, remove, and edit facility information, verify user-submitted entries, and manage reported facilities.
 
 8.Push Notifications
 
-    * Users receive timely notifications about nearby collection drives, facility updates, tips for better e-waste disposal, and reward programs.
+   Users receive timely notifications about nearby collection drives, facility updates, tips for better e-waste disposal, and reward programs.
 
 
 ## Technology Stack:
 
 ```
-Layer | Technology
-Frontend (Mobile) | Flutter (cross-platform for iOS & Android) or React Native
-Frontend (Web) | React.js / Next.js (for SEO-friendly web app)
-Backend | Node.js (Express.js) / Django (Python REST framework)
-Database | MongoDB (NoSQL flexibility) or PostgreSQL (relational model)
-Hosting / Cloud | AWS EC2, AWS S3 (for file storage), AWS RDS or Google Cloud
-Maps and Geo-location | Google Maps API / OpenStreetMap Nominatim API
-Notifications | Firebase Cloud Messaging (for mobile push), Twilio (for SMS), SendGrid (for emails)
-Authentication | Firebase Authentication / OAuth 2.0 for social login (Google, Facebook)
-Admin Dashboard | React.js Admin Panel (with libraries like AdminBro, React-Admin)
-```
 
+LAYER                       TECHNOLOGY    
+
+Frontend (Mobile)           Flutter (cross-platform for iOS & Android) or React Native
+Frontend (Web)              React.js / Next.js (for SEO-friendly web app)
+Backend                     Node.js (Express.js) / Django (Python REST framework)
+Database                    MongoDB (NoSQL flexibility) or PostgreSQL (relational model)
+Hosting / Cloud             AWS EC2, AWS S3 (for file storage), AWS RDS or Google Cloud
+Maps and Geo-location       Google Maps API / OpenStreetMap Nominatim API
+Notifications               Firebase Cloud Messaging (for mobile push), Twilio (for SMS), SendGrid (for emails)
+Authentication              Firebase Authentication / OAuth 2.0 for social login (Google, Facebook)
+Admin Dashboard             React.js Admin Panel (with libraries like AdminBro, React-Admin)
+
+```
 ## Dependencies:
 
 * Google Maps API / OpenStreetMap API for location services and facility mapping.
@@ -165,7 +167,7 @@ Admin Dashboard | React.js Admin Panel (with libraries like AdminBro, React-Admi
 
   ## Conclusion:
   
-  Electronic waste is a major environmental issue, and improper disposal leads to pollution, health risks, and resource loss. The E-Waste Facility Locator offers a practical, user-friendly solution by helping individuals easily find verified recycling centers nearby.
+Electronic waste is a major environmental issue, and improper disposal leads to pollution, health risks, and resource loss. The E-Waste Facility Locator offers a practical, user-friendly solution by helping individuals easily find verified recycling centers nearby.
 
 Through features like real-time location tracking, filtering, navigation, user reviews, and notifications, the platform removes barriers to responsible e-waste disposal. It empowers users to make eco-friendly choices conveniently while keeping information accurate through community participation and admin oversight.
 
