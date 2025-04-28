@@ -141,13 +141,21 @@ The solution would include:
 LAYER                       TECHNOLOGY    
 
 Frontend (Mobile)     ->     Flutter (cross-platform for iOS & Android) or React Native
+
 Frontend (Web)        ->     React.js / Next.js (for SEO-friendly web app)
+
 Backend               ->     Node.js (Express.js) / Django (Python REST framework)
+
 Database              ->     MongoDB (NoSQL flexibility) or PostgreSQL (relational model)
+
 Hosting / Cloud       ->     AWS EC2, AWS S3 (for file storage), AWS RDS or Google Cloud
+
 Maps and Geo-location ->     Google Maps API / OpenStreetMap Nominatim API
+
 Notifications         ->     Firebase Cloud Messaging (for mobile push), Twilio (for SMS), SendGrid (for emails)
+
 Authentication        ->     Firebase Authentication / OAuth 2.0 for social login (Google, Facebook)
+
 Admin Dashboard       ->     React.js Admin Panel (with libraries like AdminBro, React-Admin)
 
 ```
