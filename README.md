@@ -165,7 +165,7 @@ Admin Dashboard       ->     React.js Admin Panel (with libraries like AdminBro,
 
 * Data Privacy Tools: GDPR compliance tools if launched in sensitive regions.
 
-  ## Conclusion:
+## Conclusion:
   
 Electronic waste is a major environmental issue, and improper disposal leads to pollution, health risks, and resource loss. The E-Waste Facility Locator offers a practical, user-friendly solution by helping individuals easily find verified recycling centers nearby.
 
